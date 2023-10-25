@@ -66,10 +66,10 @@ action({
                     items: () => ({
                         amount: form.float({
                             label: '%',
-                            tooltip: 'Use denoise levels of 0.25-0.35. You can turn on precision mode for better results, with it 0.5 denoise is recommended.',
+                            tooltip: 'Use denoise levels of 0.25-0.35. Can go up to 0.5 with precise mode activated.',
                             min: 0,
                             max: 1,
-                            default: 0.5,
+                            default: 0.3,
                             step: 0.01,
                             theme: "input"
                         }),
